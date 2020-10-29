@@ -1,0 +1,58 @@
+*{
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+$bgColor: #79C578;
+$wrap: rgba(255, 255, 255, 0.42);
+.App {
+  width: 1280px;
+  height: 1024px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $bgColor;
+}
+
+.wrap{
+  width: 388px;
+  height: 254px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 8px;
+  background-color: $wrap;
+}
+.wrap:hover{
+  width: 388px;
+  height: 254px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 0px;
+  border: 1px solid blue;
+  background-color: $wrap;
+}
+.inpNum{
+  width: 124px;
+  height: 48px;
+  font: 1em Roboto;
+  font-size: 36px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: $wrap;
+  text-align: center;
+}
+.inpNum:hover{
+  border: 1px solid blue;
+}
+.frut{
+  font-size: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
